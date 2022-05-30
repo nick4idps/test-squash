@@ -8,6 +8,7 @@ export class AppController {
   @Get()
   getHello(): string {
     "1"
+    "2"
     return this.appService.getHello();
   }
 }
